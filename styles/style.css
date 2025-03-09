@@ -2,4 +2,19 @@
     font-family: "Poppins", sans-serif;
     
   }
-  
+  #theme1 {
+  background-color: #ffcccc;
+  color: #333;
+    
+}
+
+#theme2 {
+    background-color: #ccffcc;
+    color: #333;
+}
+
+#theme3 {
+    background-color: #ccccff;
+    color: #333;
+}
+

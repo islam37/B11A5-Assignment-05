@@ -16,9 +16,11 @@
   <body class="poppins bg-gray-100">
     <header class="">
       <nav class="flex justify-between items-center p-4 bg-white shadow-md">
-        <div>
+        <div class="flex items-center space-x-2">
+
+          <img src="./resources/assets/logo.png" alt="" />
           <p class="text-2xl">
-            Dev<span class="text-2xl font-bold">Board</span>
+            <span class="text-blue-400">Dev</span><span class="text-2xl font-bold">Board</span>
           </p>
         </div>
         <div>
@@ -39,11 +41,64 @@
         <h1 class="font-bold text-xl"> Question-1: What are the different ways to select an element in the DOM?</h1>
         <hr>
         <p class="">We can select elements in the DOM using various methods. getElementById("id") selects an element by its ID, while getElementsByClassName("class") and getElementsByTagName("tag") return collections of elements. More advanced methods like querySelector("selector") and querySelectorAll("selector") .</p>
+
       </section>
+
+
       <article class="bg-white mt-5 p-4">
         <h1 class="font-bold text-xl"> Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
         <hr>
         <p class=""> innerHTML sets or gets the HTML content of an element and parses tags, but it poses security risks. innerText retrieves only visible text and ignores hidden elements. textContent gets all text, including hidden content, but doesn’t parse HTML. Use innerHTML for inserting HTML, innerText for visible text, and textContent for raw text. Choose wisely based on your needs!</p>
+      </article>
+
+      <!-- 3 -->
+      <article class="bg-white mt-5 p-4">
+        <h1 class="font-bold text-xl">Question-3: What is event delegation in the DOM?
+
+        </h1>
+        
+        <hr>
+          <p class="">Event Delegation is a technique where a single event listener is added to a parent element to handle events on its child elements using event bubbling. It improves performance, works on dynamic elements, and reduces multiple event listeners. Instead of adding events to each child, the parent listens and detects the target element. This is useful for handling lists, tables, or dynamically added elements</p>
+        </article>
+
+        <!-- 4 -->
+
+        
+      <article class="bg-white mt-5 p-4">
+        <h1 class="font-bold text-xl">Question-4: What is event bubbling in the DOM?
+
+        </h1>
+        
+        <hr>
+          <p class="">Event Bubbling is a phase in the DOM event propagation where an event starts from the target element and bubbles up to its parent elements. It allows a parent to handle events triggered by its child elements. Bubbling helps in event delegation, making event handling more efficient.</p>
+        </article>
+
+      
+
+      <!-- 5 -->
+
+      <article class="bg-white mt-5 p-4">
+        <h1 class="font-bold text-xl">Question-5: How do you create, add, and remove elements using JavaScript?
+
+        </h1>
+        
+        <hr>
+
+        <h3 class="font-bold"> Creating </h3>
+          <p class="">const newDiv = document.createElement("div");
+            newDiv.textContent = "Hello World!";
+            </p>
+            <h3 class="font-bold"> adding</h3>
+            <p>
+              document.body.appendChild(newDiv); 
+
+
+            </p>
+            <h3 class="font-bold"> Removing</h3>
+            <p>newDiv.remove();
+            </p>
+        </article>
+
       </article>
     </main>
 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="poppins bg-gray-100">
+    <header class="">
+      <nav class="flex justify-between items-center p-4 bg-white shadow-md">
+        <div>
+          <p class="text-2xl">
+            Dev<span class="text-2xl font-bold">Board</span>
+          </p>
+        </div>
+        <div>
+          <a href="./index.html">
+            <button class="btn btn-success">Back to desk</button></a
+          >
+        </div>
+      </nav>
+    </header>
+    <br />
+
+    <main class="container p-4 mx-auto">
+      <section>
+        <h1 class="text-center font-bold text-2xl">Blogs</h1>
+      </section>
+
+      <section class="bg-white mt-5 p-4 ">
+        <h1 class="font-bold text-xl"> Question-1: What are the different ways to select an element in the DOM?</h1>
+        <hr>
+        <p class="">We can select elements in the DOM using various methods. getElementById("id") selects an element by its ID, while getElementsByClassName("class") and getElementsByTagName("tag") return collections of elements. More advanced methods like querySelector("selector") and querySelectorAll("selector") .</p>
+      </section>
+      <article class="bg-white mt-5 p-4">
+        <h1 class="font-bold text-xl"> Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+        <hr>
+        <p class=""> innerHTML sets or gets the HTML content of an element and parses tags, but it poses security risks. innerText retrieves only visible text and ignores hidden elements. textContent gets all text, including hidden content, but doesn’t parse HTML. Use innerHTML for inserting HTML, innerText for visible text, and textContent for raw text. Choose wisely based on your needs!</p>
+      </article>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
